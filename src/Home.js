@@ -68,7 +68,7 @@ class Home extends React.Component {
                 <div id="content">
                   <div id="inner-content">
                     <div id="image-wrap">
-                      <img src={profile} alt="A picture of Ian Cook Westgate"></img>
+                      <img src={profile} alt="Ian Cook Westgate"></img>
                     </div>
                     <div id="name-holder">
                       <h3>
@@ -87,7 +87,7 @@ class Home extends React.Component {
                 <p>I found my passion for coding while traveling the world. As I trekked through up and coming tech cities like Tallinn, Budapest, and Ho Chi Minh City, I worked through programming courses online. When I returned to America, I promptly enrolled with Epicodus in the Front End Development track. Ever since, I'm fascinated with what I can create online and I've been challenging myself to try new programs & plugins every day. I can't wait to meet and learn from everyone I can in this burgeoning industry.</p>
                 <a href="https://docs.google.com/document/d/1GayiA_ACx7_AcshfhKQMUI0baChg7VatB6G-g12ISLc/edit?usp=sharing">View CV</a>
               </div>
-              <img src={aboutPic}></img>
+              <img src={aboutPic} alt="Formally dressed Ian Cook Westgate"></img>
             </div>
           </div>
           <div ref={this.portfolioDivToFocus} id="portfolio-wrap">
@@ -100,17 +100,12 @@ class Home extends React.Component {
                   <div className="inner-list">
                     <div className="image-wrap">
                       <a href="https://github.com/iancookwestgate/Finding-Congress">
-                        <img src={FCongress}></img>
+                        <img src={FCongress} alt="Finding Congress GitHub project"></img>
                       </a>
                     </div>
                     <div className="definitions-wrap">
                       <div className="date-wrap">
                         <p><em>Finding Congress</em> - August 1, 2019</p>
-                      </div>
-                      <div className="title-holder">
-                        <h3>
-                          <a href="/"></a>
-                        </h3>
                       </div>
                       <div className="definition">
                         <p>Uses the ProPublica Congress API & News API within a minimalist website that permits the user to seek curated news based on a state's congressmen, women, and a political issue of their choice.</p>
@@ -127,17 +122,12 @@ class Home extends React.Component {
                   <div className="inner-list">
                     <div className="image-wrap">
                       <a href="https://github.com/iancookwestgate/GitHugged">
-                        <img src={GitHugged}></img>
+                        <img src={GitHugged} alt="GitHugged GitHub project"></img>
                       </a>
                     </div>
                     <div className="definitions-wrap">
                       <div className="date-wrap">
                         <p><em>GitHugged</em> - May 9, 2019</p>
-                      </div>
-                      <div className="title-holder">
-                        <h3>
-                          <a href="/"></a>
-                        </h3>
                       </div>
                       <div className="definition">
                         <p>I helped program this team project featuring a website that allows the user to write blog posts about their GitHub repositories. Access to GitHub's API makes it all possible.</p>
@@ -154,17 +144,12 @@ class Home extends React.Component {
                   <div id="third-piece" className="inner-list">
                     <div className="image-wrap">
                       <a href="https://github.com/iancookwestgate/JIRN">
-                        <img src={jirn}></img>
+                        <img src={jirn} alt="JIRN GitHub Project"></img>
                       </a>
                     </div>
                     <div className="definitions-wrap">
                       <div className="date-wrap">
                         <p><em>JIRN.com</em> - February 7, 2019</p>
-                      </div>
-                      <div className="title-holder">
-                        <h3>
-                          <a href="/"></a>
-                        </h3>
                       </div>
                       <div className="definition">
                         <p>I assisted programming this website for easily giving a user access to a prepared list of restaurants & their information throughout the Portland area.</p>

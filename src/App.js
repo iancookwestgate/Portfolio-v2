@@ -2,7 +2,6 @@ import React from 'react';
 import Home from './Home';
 import { Switch, Route } from 'react-router-dom';
 import Error404 from './Error404';
-import logo from './logo.svg';
 import './App.css';
 import './scss/styles.scss';
 
