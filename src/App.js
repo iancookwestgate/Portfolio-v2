@@ -1,6 +1,6 @@
 import React from 'react';
 import Home from './Home';
-import { Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Switch, Route } from 'react-router-dom';
 import Error404 from './Error404';
 import './App.css';
 import './scss/styles.scss';
