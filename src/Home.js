@@ -1,4 +1,5 @@
 import React from 'react';
+import 'normalize.css';
 import './scss/styles.scss';
 import aboutPic from './assets/images/Ian-Pic.jpg';
 import profile from './assets/images/Profile-Picture.jpg';

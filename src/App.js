@@ -2,6 +2,7 @@ import React from 'react';
 import Home from './Home';
 import { BrowserRouter as Switch, Route } from 'react-router-dom';
 import './App.css';
+import 'normalize.css';
 import './scss/styles.scss';
 
 class App extends React.Component {
