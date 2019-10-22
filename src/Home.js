@@ -50,7 +50,7 @@ class Home extends React.Component {
   render() {
     return (
       <div>
-        <div className="bg-nvy navbar">
+        <div className="navbar">
           <div id="internal-menu">
             <p onClick={this.homeClick}>Home</p>
             <p onClick={this.aboutClick}>About</p>
