@@ -83,9 +83,9 @@ class Home extends React.Component {
                       <img src={profile} alt="Ian Cook Westgate"></img>
                     </div>
                     <div id="name-holder">
-                      <h3>
-                        Ian Cook Westgate
-                      </h3>
+                      <p>
+                        Web Developer and Technical Writer
+                      </p>
                     </div>
                   </div>
                 </div>
