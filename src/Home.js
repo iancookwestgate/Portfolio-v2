@@ -55,6 +55,11 @@ class Home extends React.Component {
             <p onClick={this.homeClick}>Ian Cook Westgate</p>
           </div>
           <div className="internal-menu">
+            <div className="hamburger-menu">
+              <span className="ham-menu-line"></span>
+              <span className="ham-menu-line"></span>
+              <span className="ham-menu-line"></span>
+            </div>
             <div className="nav-menu">
               <ul className="menu-list">
                 <p onClick={this.aboutClick}>About</p>

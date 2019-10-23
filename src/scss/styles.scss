@@ -22,10 +22,9 @@ p {
 .navbar {
   padding-top: 80px;
   padding-bottom: 80px;
-  width: 100%;
-  max-width: 1430px;
-  margin-right: auto;
   margin-left: auto;
+  margin-right: auto;
+  max-width: 1080px;
   display: flex;
   -webkit-box-align: center;
   align-items: center;
@@ -41,11 +40,35 @@ p {
   display: flex;
   p {
     margin-right: 50px;
+    font-weight: 400;
+    font-size: 1.20rem;
+    transition: color ease .3s;
+    position: relative;
+    display: block;
+  }
+  p:before {
+    transition: all ease .3s;
+    transform: translateX(-50%);
+    width: 20%;
+    height: 6px;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    opacity:0;
+    pointer-events: none;
+    content: '';
+    border-radius: 6px;
+    background: darkgreen;
+  }
+  p:hover:before {
+    opacity:1;
+    width: 70%;
   }
 }
 
 #side-name {
   p {
+    margin-left: 20px;
     font-weight: 500;
     font-size: 1.75rem;
     display: block;
@@ -65,5 +88,35 @@ p {
   }
   p:hover:after {
     max-width: 20%;
+  }
+}
+
+.hamburger-menu {
+  width: 30px;
+  height: 22px;
+  position: relative;
+  text-decoration: none;
+  cursor: pointer;
+  .ham-menu-line:nth-child(1) {
+    top:0px;
+  }
+  .ham-menu-line:nth-child(2) {
+    top:9px;
+  }
+  .ham-menu-line:nth-child(3) {
+    top: 18px;
+  }
+  .ham-menu-line {
+    width: 30px;
+    height: 4px;
+    position: absolute;
+    left: 0;
+    animation-duration: .4s;
+    animation-fill-mode: forwards;
+    border-radius: 1000px;
+    background: black;
+  }
+  @include mQ(900px){
+    display: none;
   }
 }
