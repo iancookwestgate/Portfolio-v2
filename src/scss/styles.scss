@@ -209,16 +209,14 @@ p {
 }
 
 #name-holder {
-  p {
-    color: #fff;
-    font-size: 32px;
-    font-weight: 300;
-    line-height: 1;
-    position: absolute;
-    top: 30%;
-    left: 80%;
-    z-index: 2;
-  }
+  color: #fff;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 1;
+  position: absolute;
+  top: 10%;
+  left: 80%;
+  z-index: 2;
 }
 
 // About Me SCSS
