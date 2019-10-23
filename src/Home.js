@@ -51,11 +51,17 @@ class Home extends React.Component {
     return (
       <div>
         <div className="navbar">
-          <div id="internal-menu">
-            <p onClick={this.homeClick}>Home</p>
-            <p onClick={this.aboutClick}>About</p>
-            <p onClick={this.portfolioClick}>Portfolio</p>
-            <p onClick={this.contactClick}>Contact</p>
+          <div id="side-name">
+            <p onClick={this.homeClick}>Ian Cook Westgate</p>
+          </div>
+          <div className="internal-menu">
+            <div className="nav-menu">
+              <ul className="menu-list">
+                <p onClick={this.aboutClick}>About</p>
+                <p onClick={this.portfolioClick}>Portfolio</p>
+                <p onClick={this.contactClick}>Contact</p>
+              </ul>
+            </div>
           </div>
         </div>
         <div ref={this.homeDivToFocus} id="home">
